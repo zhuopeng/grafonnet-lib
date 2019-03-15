@@ -9,6 +9,7 @@
   graphPanel:: import 'graph_panel.libsonnet',
   tablePanel:: import 'table_panel.libsonnet',
   singlestat:: import 'singlestat.libsonnet',
+  gauge:: import 'gauge.libsonnet',
   influxdb:: import 'influxdb.libsonnet',
   prometheus:: import 'prometheus.libsonnet',
   sql:: import 'sql.libsonnet',

@@ -1,0 +1,200 @@
+{
+   "advanced": {
+      "datasource": "$PROMETHEUS",
+      "description": "test",
+      "links": [ ],
+      "options": {
+         "maxValue": 10,
+         "minValue": 0,
+         "showThresholdLabels": true,
+         "showThresholdMarkers": false,
+         "thresholds": [
+            {
+               "color": "#7EB16D",
+               "index": 0,
+               "value": null
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": ":",
+            "prefix": "",
+            "stat": "avg",
+            "suffix": "",
+            "unit": "percentunit"
+         }
+      },
+      "targets": [ ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "advanced test",
+      "type": "gauge"
+   },
+   "basic": {
+      "links": [ ],
+      "options": {
+         "maxValue": 100,
+         "minValue": 0,
+         "showThresholdLabels": false,
+         "showThresholdMarkers": true,
+         "thresholds": [
+            {
+               "color": "#7EB26D",
+               "index": 0,
+               "value": null
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": null,
+            "prefix": "",
+            "stat": "avg",
+            "suffix": "",
+            "unit": "none"
+         }
+      },
+      "targets": [ ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "test",
+      "type": "gauge"
+   },
+   "with_gauge_options": {
+      "links": [ ],
+      "options": {
+         "maxValue": 420,
+         "minValue": 42,
+         "showThresholdLabels": true,
+         "showThresholdMarkers": true,
+         "thresholds": [
+            {
+               "color": "#7EB26D",
+               "index": 0,
+               "value": null
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": null,
+            "prefix": "",
+            "stat": "avg",
+            "suffix": "",
+            "unit": "none"
+         }
+      },
+      "targets": [ ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "gauge option test",
+      "type": "gauge"
+   },
+   "with_targets": {
+      "links": [ ],
+      "options": {
+         "maxValue": 100,
+         "minValue": 0,
+         "showThresholdLabels": false,
+         "showThresholdMarkers": true,
+         "thresholds": [
+            {
+               "color": "#7EB26D",
+               "index": 0,
+               "value": null
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": null,
+            "prefix": "",
+            "stat": "avg",
+            "suffix": "",
+            "unit": "none"
+         }
+      },
+      "targets": [
+         {
+            "a": 1
+         },
+         {
+            "b": 2
+         }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "test",
+      "type": "gauge"
+   },
+   "with_thresholds": {
+      "links": [ ],
+      "options": {
+         "maxValue": 100,
+         "minValue": 0,
+         "showThresholdLabels": false,
+         "showThresholdMarkers": true,
+         "thresholds": [
+            {
+               "color": "#7EB26D",
+               "index": 0,
+               "value": null
+            },
+            {
+               "color": "#6ED0E0",
+               "index": 1,
+               "value": 50
+            },
+            {
+               "color": "#EF843C",
+               "index": 2,
+               "value": 75
+            },
+            {
+               "color": "#E24D42",
+               "index": 3,
+               "value": 87.5
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": null,
+            "prefix": "",
+            "stat": "avg",
+            "suffix": "",
+            "unit": "none"
+         }
+      },
+      "targets": [ ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "test thresholds",
+      "type": "gauge"
+   },
+   "with_value_options": {
+      "links": [ ],
+      "options": {
+         "maxValue": 100,
+         "minValue": 0,
+         "showThresholdLabels": false,
+         "showThresholdMarkers": true,
+         "thresholds": [
+            {
+               "color": "#7EB26D",
+               "index": 0,
+               "value": null
+            }
+         ],
+         "valueMappings": [ ],
+         "valueOptions": {
+            "decimals": "##",
+            "prefix": "testPrefix",
+            "stat": "min",
+            "suffix": "testSuffix",
+            "unit": "accFS2"
+         }
+      },
+      "targets": [ ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "value options tests",
+      "type": "gauge"
+   }
+}
