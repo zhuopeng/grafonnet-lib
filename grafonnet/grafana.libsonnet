@@ -10,6 +10,7 @@
   tablePanel:: import 'table_panel.libsonnet',
   singlestat:: import 'singlestat.libsonnet',
   gauge:: import 'gauge.libsonnet',
+  heatmap:: import 'heatmap.libsonnet',
   influxdb:: import 'influxdb.libsonnet',
   prometheus:: import 'prometheus.libsonnet',
   sql:: import 'sql.libsonnet',
