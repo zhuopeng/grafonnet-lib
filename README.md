@@ -128,6 +128,26 @@ dashboard.new(
     h: 3,
   }
 )
+.addPanel(
+  gauge.new(
+    'CPU usage',
+    valueStat='avg',
+    valueUnit='percentunit',
+    minValue=0,
+    maxValue=1,
+  )
+  .addTarget(
+    prometheus.target(
+      'avg_over_time(java_lang_OperatingSystem_ProcessCpuLoad{instance="$instance"}[1m])',
+      datasource="Prometheus"
+    )
+  ), gridPos={
+    x: 0,
+    y: 0,
+    w: 6,
+    h: 6,
+  }
+)
 ```
 
 Simple Grafana 4.x dashboard:

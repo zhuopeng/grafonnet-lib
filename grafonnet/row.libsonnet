@@ -22,11 +22,6 @@
     title: title,
     type: 'row',
     titleSize: titleSize,
-    addPanels(panels):: self {
-      panels+: panels,
-    },
-    addPanel(panel, gridPos={}):: self {
-      panels+: [panel { gridPos: gridPos }],
-    },
+    
   },
 }
