@@ -18,4 +18,5 @@
   alertCondition:: import 'alert_condition.libsonnet',
   cloudwatch:: import 'cloudwatch.libsonnet',
   elasticsearch:: import 'elasticsearch.libsonnet',
+  statuspanel:: import 'vonage-status-panel.libsonnet'
 }
